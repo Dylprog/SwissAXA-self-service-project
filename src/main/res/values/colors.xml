@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="axa_blue">#FF000093</color>
+    <color name="axa_red">#FFFF101C</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

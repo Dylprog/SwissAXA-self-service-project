@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HomepageActivity">
+
+    <LinearLayout
+        android:id="@+id/homepage_tabs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <Button
+            android:id="@+id/tab_myPolicies"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:backgroundTint="@color/white"
+            android:paddingHorizontal="16dp"
+            android:text="myPolicies"
+            android:textAllCaps="false"
+            android:textColor="@color/axa_blue" />
+
+        <Button
+            android:id="@+id/tab_myDocument"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:backgroundTint="@color/white"
+            android:paddingHorizontal="16dp"
+            android:text="myDocument"
+            android:textAllCaps="false"
+            android:textColor="@color/axa_blue" />
+
+        <Button
+            android:id="@+id/tab_myBank"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:backgroundTint="@color/white"
+            android:paddingHorizontal="16dp"
+            android:text="myBank"
+            android:textAllCaps="false"
+            android:textColor="@color/axa_blue" />
+
+        <Button
+            android:id="@+id/tab_myServices"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:backgroundTint="@color/white"
+            android:paddingHorizontal="16dp"
+            android:text="myServices"
+            android:textAllCaps="false"
+            android:textColor="@color/axa_blue" />
+
+        <Button
+            android:id="@+id/tab_myInformation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:paddingHorizontal="16dp"
+            android:text="myInformation"
+            android:textAllCaps="false"
+            android:textColor="@color/axa_blue" />
+    </LinearLayout>
+
+</LinearLayout>
